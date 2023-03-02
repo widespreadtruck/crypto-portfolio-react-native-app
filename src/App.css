@@ -1,0 +1,17 @@
+ul li:first-child .listItem {
+  @apply rounded-t-lg;
+}
+
+ul li:last-child .listItem {
+  @apply rounded-b-lg;
+  margin-bottom: 20px;
+}
+ul li:last-child .listItem {
+  @apply border-b;
+}
+
+.listItem {
+  min-width: 600px;
+  max-width: 1000px;
+}
+
